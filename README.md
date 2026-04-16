@@ -13,7 +13,27 @@ This distribution is based on **Ubuntu 24.04 (Noble Numbat)** and is delivered a
 <img width="1920" height="1080" alt="2026-04-16 19_17_17-HDD-ToolBox (Cyberpunk Docker)" src="https://github.com/user-attachments/assets/a23d6ae7-5fa9-4358-9ddf-4d8aa09c2a70" />
 
 ---
+## 🚀 Key Advantages
 
+* **Unified Interface:** No more juggling dozens of CLI tools; manage everything from one dashboard.
+* **NOVA AI Integration:** Get expert guidance and automated analysis of S.M.A.R.T. data.
+* **Multi-Platform:** Seamlessly switch between your desktop PC and your Raspberry Pi.
+* **Safe Environment:** All tools are pre-configured inside a hardened Ubuntu 24.04 environment, preventing dependency hell on your host system.
+* **Protected Core:** The application logic is encrypted (Pyarmor) to ensure stability and security.
+
+---
+
+## 🛠️ Developed With
+
+This project leverages the best-in-class open-source and security technologies:
+
+* **OS Base:** Ubuntu 24.04 LTS (Noble Numbat)
+* **Language:** Python 3.12+ (Flask Backend)
+* **Frontend:** HTML5, CSS3 (Cyberpunk UI Framework), JavaScript
+* **AI Engine:** NOVA AI (via OpenRouter / OpenAI API)
+* **Security:** Pyarmor (Core Encryption), SHC (Shell Script Compiler)
+* **Tools:** smartmontools, hdparm, nvme-cli, fdisk, parted, udisks2
+  
 ## ✨ Features at a Glance
 
 ### 🤖 NOVA AI Assistant
@@ -45,16 +65,18 @@ This distribution is based on **Ubuntu 24.04 (Noble Numbat)** and is delivered a
 
 ---
 
-## 🚀 Installation
+---
 
-### 1. For PC / Server (AMD64)
-**File:** `docker-compose.yml`
+## 📦 Deployment (Quick Start)
+
+Choose the configuration matching your architecture:
+
+### 1. AMD64 (PC / Server)
 ```yaml
 services:
   hdd-toolbox:
     image: ghcr.io/jeromex/hdd-toolbox-amd64:latest
     container_name: hdd-toolbox
-    hostname: hdd-tool-station
     privileged: true
     restart: always
     ports:
@@ -63,8 +85,6 @@ services:
       - /dev:/dev
       - /run/udev:/run/udev:ro
       - ./data:/opt/tuxhausen/data
-      - /mnt:/mnt:rshared
-      - /media:/media:rshared
 ----------------------------------------------------------------------------------------
 ### 2. For Raspberry Pi (ARM64 / RPI)
 **File:** `docker-compose.yml`
@@ -73,7 +93,6 @@ services:
   hdd-toolbox:
     image: ghcr.io/jeromex/hdd-toolbox-rpi:latest
     container_name: hdd-toolbox-rpi
-    hostname: hdd-tool-pi
     privileged: true
     restart: always
     ports:
@@ -82,7 +101,6 @@ services:
       - /dev:/dev
       - /run/udev:/run/udev:ro
       - ./data:/opt/tuxhausen/data
-      # Required for accessing external USB drives on Raspberry Pi OS
       - /media:/media:rshared
-      - /mnt:/mnt:rshared
 
+© 2026 Malte Speck - Professional Storage Solutions
