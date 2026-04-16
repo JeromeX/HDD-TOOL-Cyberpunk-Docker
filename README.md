@@ -62,17 +62,11 @@ This project leverages the best-in-class open-source and security technologies:
 - **Web Download:** Download your backups directly through your browser.
 - **Restore:** Safely write local images back to physical drives.
 - **File Restore:** Integrated support for recovering deleted files using `extundelete`.
-
 ---
+📦 Deployment (Choose your Architecture)
 
----
-
-## 📦 Deployment (Quick Start)
-
-Choose the configuration matching your architecture:
-
-### 1. AMD64 (PC / Server)
-```yaml
+### 🖥️ 1. AMD64 (PC / Server)
+```YAML
 services:
   hdd-toolbox:
     image: ghcr.io/jeromex/hdd-toolbox-amd64:latest
@@ -85,10 +79,11 @@ services:
       - /dev:/dev
       - /run/udev:/run/udev:ro
       - ./data:/opt/tuxhausen/data
-----------------------------------------------------------------------------------------
-### 2. For Raspberry Pi (ARM64 / RPI)
-**File:** `docker-compose.yml`
-```yaml
+      - /media:/media:rshared
+```
+---------------------------------------------------------------------------------
+### 🍓 2. ARM64 (Raspberry Pi)
+```YAML
 services:
   hdd-toolbox:
     image: ghcr.io/jeromex/hdd-toolbox-rpi:latest
@@ -102,5 +97,5 @@ services:
       - /run/udev:/run/udev:ro
       - ./data:/opt/tuxhausen/data
       - /media:/media:rshared
-
+```
 © 2026 Malte Speck - Professional Storage Solutions
