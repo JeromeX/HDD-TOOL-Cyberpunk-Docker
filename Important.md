@@ -1,7 +1,7 @@
 ## ⚙️ Initial Setup
 
 1. **Start the container:** ```bash
-   docker compose up -d
+docker compose up -d
 Access the Web UI: Open your browser and navigate to http://[YOUR-IP]:5000.
 
 Default Credentials:
