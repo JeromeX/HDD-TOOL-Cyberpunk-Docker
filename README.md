@@ -78,14 +78,3 @@ services:
       - /media:/media:rshared
       - /mnt:/mnt:rshared
 
-<img width="1920" height="1080" alt="2026-04-16 19_03_10-HDD-ToolBox (Cyberpunk Docker) und 3 weitere Seiten - Persönlich – Microsoft​ Ed" src="https://github.com/user-attachments/assets/d28d951d-71ee-4b54-b668-175ee1214fe4" />
-<img width="1920" height="1080" alt="2026-04-16 19_02_59-HDD-ToolBox (Cyberpunk Docker) und 3 weitere Seiten - Persönlich – Microsoft​ Ed" src="https://github.com/user-attachments/assets/0a95edfd-34a8-4088-838c-551fb0eda844" />
-<img width="1920" height="1080" alt="2026-04-16 19_02_43-HDD-ToolBox (Cyberpunk Docker) und 3 weitere Seiten - Persönlich – Microsoft​ Ed" src="https://github.com/user-attachments/assets/b6a8e5b8-acc4-49fd-972d-22cea0a4a481" />
-<img width="1920" height="1080" alt="2026-04-16 19_02_25-HDD-ToolBox (Cyberpunk Docker) und 3 weitere Seiten - Persönlich – Microsoft​ Ed" src="https://github.com/user-attachments/assets/82aee349-36de-4b7a-bced-5f6d613ab769" />
-<img width="1920" height="1080" alt="2026-04-16 19_04_32-HDD-ToolBox (Cyberpunk Docker) und 3 weitere Seiten - Persönlich – Microsoft​ Ed" src="https://github.com/user-attachments/assets/b2da4fb4-de81-4db0-9884-a95cbf05a84d" />
-<img width="1920" height="1080" alt="2026-04-16 19_04_27-HDD-ToolBox (Cyberpunk Docker) und 3 weitere Seiten - Persönlich – Microsoft​ Ed" src="https://github.com/user-attachments/assets/dd8102d8-b072-40b6-bd0c-323f9f24cdff" />
-<img width="1920" height="1080" alt="2026-04-16 19_04_16-HDD-ToolBox (Cyberpunk Docker) und 3 weitere Seiten - Persönlich – Microsoft​ Ed" src="https://github.com/user-attachments/assets/789ff6da-30e8-40bd-9d9b-40bc5e69bed0" />
-<img width="1920" height="1080" alt="2026-04-16 19_04_03-HDD-ToolBox (Cyberpunk Docker) und 3 weitere Seiten - Persönlich – Microsoft​ Ed" src="https://github.com/user-attachments/assets/f6b8127f-7ef3-4479-83eb-7b1f54cfe62f" />
-<img width="1920" height="1080" alt="2026-04-16 19_03_58-HDD-ToolBox (Cyberpunk Docker) und 3 weitere Seiten - Persönlich – Microsoft​ Ed" src="https://github.com/user-attachments/assets/c1406f65-2dcd-41e6-9809-0fdd99ca9cf8" />
-<img width="1920" height="1080" alt="2026-04-16 19_03_36-HDD-ToolBox (Cyberpunk Docker) und 3 weitere Seiten - Persönlich – Microsoft​ Ed" src="https://github.com/user-attachments/assets/9c6229d7-8a4e-4ff5-ae66-bd86075673f5" />
-<img width="1920" height="1080" alt="2026-04-16 19_03_23-HDD-ToolBox (Cyberpunk Docker) und 3 weitere Seiten - Persönlich – Microsoft​ Ed" src="https://github.com/user-attachments/assets/e45df8d3-56a6-43c7-81e3-3424c5c66df0" />
